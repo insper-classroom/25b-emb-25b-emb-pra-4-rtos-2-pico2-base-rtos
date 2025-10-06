@@ -8,5 +8,11 @@ const int LED_PIN_R = 7;
 const int LED_PIN_G = 8;
 const int LED_PIN_B = 9;
 
+const int TRIG_PIN = 11;
+const int ECHO_PIN = 12;
+
+// OLED (Pico Dock): I2C0 em GPIO2 (SDA) e GPIO3 (SCL)
+const int OLED_SDA_PIN = 2;
+const int OLED_SCL_PIN = 3;
 
 #endif // PINS_H
